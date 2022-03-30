@@ -1,0 +1,23 @@
+.search {
+  box-sizing: border-box;
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: inherit;
+  padding: 4px 4px 4px 30px;
+  background-image: url(https://reactjs.org/search.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 4px;
+  color: aliceblue;
+}
+
+span p {
+  /* display: inline-block; */
+  padding: 20px 20px;
+  margin-left: 150px;
+  position: fixed;
+}
