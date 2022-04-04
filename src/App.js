@@ -3,6 +3,7 @@ import './App.css';
 import HeaderComp from './layout/Header';
 import Hero from './layout/Hero';
 import Main from './components/Main';
+import Footer from './layout/Footer';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         <Hero />
         <Main />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 

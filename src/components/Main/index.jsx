@@ -1,4 +1,5 @@
 import classes from "./main.module.css";
+import GetStart from "../GetStart";
 
 const mainSection = [
     {
@@ -15,7 +16,7 @@ const mainSection = [
         title: 'Learn Once, Write Anywhere',
         content1: 'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.',
         content2: 'React can also render on the server using Node and power mobile apps using',
-        content3: <a href="https://reactnative.dev/" target="_blank" rel="nofollow noopener noreferrer">React Native</a>
+        content3: <a href="https://reactnative.dev/" target="_blank" rel="nofollow noopener noreferrer">React Native.</a>
     },
 ]
 
@@ -28,10 +29,13 @@ const Main = () => {
                         <h3 className={classes.title} key={sections.title}>{sections.title}</h3>
                         <div className={classes.contents} key={sections.content1}>
                             <p key={sections.content1}>{sections.content1}</p>
-                            <p key={sections.content2}>{sections.content2} {sections.content3}.</p>
+                            <p key={sections.content2}>{sections.content2} {sections.content3}</p>
                         </div>
                     </div>
                 ) )}
+            </div>
+            <div className={classes.getstart}>
+                <GetStart className={classes.button} />
             </div>
         </div>
     )
