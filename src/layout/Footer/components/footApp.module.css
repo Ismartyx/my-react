@@ -2,6 +2,8 @@
   display: inline-flex;
   flex-direction: column;
   color: #ffffff;
+  width: 50%;
+  padding-top: 40px;
 }
 
 .footAppTitle {

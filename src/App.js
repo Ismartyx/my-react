@@ -26,7 +26,7 @@ function App() {
         <Hero />
         <Main />
       </header>
-      <footer>
+      <footer className="footer">
         <Footer />
       </footer>
     </div>

@@ -1,15 +1,37 @@
-.footerB {
+.footer {
   background-color: #20232a;
   padding-top: 10px;
   padding-bottom: 50px;
+  display: flex;
+  margin: auto;
+  gap: 300px;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  width: calc(100% / 3 * 2);
+}
+
+.facebook {
+  padding-top: 40px;
+  width: calc(100% / 3);
 }
 
 .copyR {
   color: #999;
   padding-top: 15px;
+  margin: 0;
 }
 
 .facebookImg {
   max-width: 160px;
   height: auto;
+}
+
+.svglink {
+  color: #6d6d6d;
+  margin-left: 5px;
+  vertical-align: -2px;
 }
