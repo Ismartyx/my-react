@@ -3,9 +3,6 @@ import styles from "./searchbar.module.css";
 
 const SearchBar = () => {
   const [query, setQuery] = React.useState("");
-  // function handleSearch() {
-  //     return <UseAnimations animation={searchToX} size={56} wrapperStyle={{ padding: 100 }} />
-  // }
 
   return (
     <div>
