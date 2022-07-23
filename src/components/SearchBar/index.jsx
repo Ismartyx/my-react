@@ -17,7 +17,7 @@ const SearchBar = () => {
             placeholder="Search"
             onChange={(event) => setQuery(event.target.value)}
           />
-          <p>{query ? <small>Nice search for{query}</small> : ""}</p>
+          <p>{query ? <small>Nice search for {query}</small> : ""}</p>
         </span>
       </form>
     </div>
