@@ -27,6 +27,7 @@ const mainSection = [
         href="https://reactnative.dev/"
         target="_blank"
         rel="nofollow noopener noreferrer"
+        className={classes.native}
       >
         React Native.
       </a>

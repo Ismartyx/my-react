@@ -38,3 +38,8 @@ svg {
   background-color: #282c34;
   padding-bottom: 30px;
 }
+
+.native {
+  background-color: #bbeffd;
+  border-bottom: 1px solid black;
+}
