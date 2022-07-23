@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+svg {
+  text-decoration: none;
+}
+
 .main {
   display: flex;
   padding-left: 20px;
