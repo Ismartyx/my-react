@@ -387,7 +387,7 @@ const Footer = () => {
         <a
           href="https://opensource.facebook.com/projects/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <img
             className={classes.facebookImg}

@@ -2,7 +2,7 @@ import classes from "./getstart.module.css";
 
 const GetStart = () => {
   return (
-    <div class={classes.button}>
+    <div className={classes.button}>
       <div className={classes.getStart}>
         <a href="https://reactjs.org/docs/getting-started.html">Get Started</a>
       </div>
